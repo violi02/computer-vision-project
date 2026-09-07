@@ -16,10 +16,12 @@ Two attention configurations are implemented and evaluated against the frozen pr
 
 ## Dataset
 
-The project uses the **NIGHTS** dataset (from the DreamSim paper): triplets of (reference, left, right) images, each annotated with the fraction of human votes indicating which of the two candidates is more similar to the reference.
+The project uses **NIGHTS** (Novel Image Generations with Human-Tested Similarity), the dataset introduced in the DreamSim paper: triplets of (reference, left, right) images, each annotated with the fraction of human votes indicating which of the two candidates is more similar to the reference.
 
-- Images and metadata are downloaded automatically from `data.csail.mit.edu/nights` when the notebook is run.
-- Data is organized into `ref/` and `distort/` folders, split into `train` / `val` / `test` according to the original dataset splits.
+- **Project page**: https://dreamsim-nights.github.io/
+- **Data source**: https://data.csail.mit.edu/nights/ (metadata CSV + chunked image archives)
+
+Images and metadata are downloaded automatically by the notebook — no manual download needed. Data is organized into `ref/` and `distort/` folders, split into `train` / `val` / `test` according to the original dataset splits.
 
 ## Method
 
