@@ -1,6 +1,7 @@
 # computer-vision-project
 
 # Efficient Attention for Perceptual Similarity (DreamSim-style)
+**Colab link**: https://colab.research.google.com/drive/1EjxfIQESgIx7mTCzZla0caR3XMtuU5P4#scrollTo=NSMiL39KZs62
 
 ## Overview
 
@@ -35,13 +36,13 @@ Images and metadata are downloaded automatically by the notebook — no manual d
 
 ## Results
 
-| Model               | Train Acc. | Val Acc. |
-|---------------------|:----------:|:--------:|
-| Baseline (zero-shot)|     –      |  0.908   |
-| Standard Attention  |   0.909    |  0.913   |
-| MoH Attention       |   0.901    |  0.923   |
+| Model               | Train Acc. | Val Acc. | Test Acc.|
+|---------------------|:----------:|:--------:|:--------:|
+| Baseline (zero-shot)|     –      |  0.908   |   0.884  |
+| Standard Attention  |   0.909    |  0.912   |   0.889  |
+| MoH Attention       |   0.913    |  0.918   |   0.886  |
 
-*(See the notebook for the full training curves, test-set metrics, and inference-time comparison.)*
+*(See the notebook or the 'img' directory for the full training curves, test-set metrics, and inference-time comparison.)*
 
 ## Repository structure
 
